@@ -96,3 +96,8 @@ For example, to draw a blue circle with a radius of 50 pixels at the center of t
 w = Window()
 w.circle(w.width / 2, w.height / 2, 50, color='blue')
 ```
+
+### clear()
+
+Erases everything that was drawn in the window.
+
