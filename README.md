@@ -81,3 +81,18 @@ w = Window()
 w.rect(100, 100, 200, 300, color='black', thickness=10, fill='grey')
 ```
 
+### circle(x, y, radius, color='black', thickness=1, fill='')
+
+Draws a circle of the give radius, centered at `(x, y)`.
+
+Optional parameters:
+
+* `color` - specified the circle's outline using any of the color names here: http://www.tcl.tk/man/tcl8.5/TkCmd/colors.htm (defaults to black).
+* `thickness` - the circle's outline thickness in pixels (defaults to 1).
+* `fill` - the color to fill the circle with (defaults to outline only, with no fill).
+
+For example, to draw a blue circle with a radius of 50 pixels at the center of the window:
+```python
+w = Window()
+w.circle(w.width / 2, w.height / 2, 50, color='blue')
+```
